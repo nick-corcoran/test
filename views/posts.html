@@ -1,0 +1,65 @@
+<html>
+
+    <header>
+        <link rel="stylesheet" href="../public/stylesheets/posts.css">
+    </header>
+
+    <body>
+        <div class="container ">
+            <div class="nav container-flex-horz">
+                <form action="/home" method="GET">
+                    <input type="image" id="nav-logo" src="../public/assets/logo.png">
+                </form>
+                <form action="/search" method="GET">
+                    <input id="search" placeholder="Search" type="search">
+                </form>
+                <form id="logout-form" action="/logout" method="GET">
+                    <button id="logout-button">logout</button>
+                </form>
+            </div>
+        </div>
+        <div class="container-flex-vert">
+            <div class="container-flex-horz">
+                <form action>
+                    <input type="image" class="post-image" src="https://randomuser.me/api/portraits/men/51.jpg" alt="">
+                </form>
+                <div id="details-section" class="container-flex-vert">
+                    <div class="container-flex-horz">
+                        <h3 class="post-topic">User settings deleted</h3>
+                        <p class="post-label">nodejs</p>
+                    </div>
+                    <p class="post-details">Pellentesque habitant morbi tristique senectus et netus et malesuada fames
+                        ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
+                        Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat
+                        eleifend leo.</p>
+                    <form action="/reply" method="GET" id='post-extra-data' class="container-flex-horz">
+                        <label class="post-date">20 oct 2019</label>
+                        <button class="post-replies">replies</button>
+                    </form>
+                </div>
+            </div>
+            <div class="container-flex-horz">
+                <form action>
+                    <input type="image" class="post-image" src="https://randomuser.me/api/portraits/men/51.jpg" alt="">
+                </form>
+                <div id="details-section" class="container-flex-vert">
+                    <div class="container-flex-horz">
+                        <h3 class="post-topic">User settings deleted</h3>
+                        <p class="post-label">nodejs</p>
+                    </div>
+                    <p class="post-details">Pellentesque habitant morbi tristique senectus et netus et malesuada fames
+                        ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
+                        Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat
+                        eleifend leo.</p>
+                    <form action="/reply" method="GET" id='post-extra-data' class="container-flex-horz">
+                        <label class="post-date">20 oct 2019</label>
+                        <button class="post-replies">replies</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+    </body>
+
+</html>
